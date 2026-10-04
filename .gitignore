@@ -1,0 +1,17 @@
+# Gradle / Kotlin build output
+.gradle/
+.kotlin/
+build/
+
+# Android Studio / IntelliJ
+.idea/
+*.iml
+
+# Machine-specific SDK path (Android Studio regenerates this)
+local.properties
+
+# Misc
+captures/
+.externalNativeBuild/
+.cxx/
+.DS_Store
