@@ -24,11 +24,11 @@ Built with Kotlin and Jetpack Compose. This is a prototype and is one half of a 
 
 1. **Clone the repo.** In Android Studio: *File > New > Project from Version Control*, paste the URL, and choose a local folder:
    ```
-   https://github.com/<your-username>/BionicReader.git
+   https://github.com/Guri-Veera/Bionic-Reader.git
    ```
    Or clone with git and open the folder:
    ```
-   git clone https://github.com/<your-username>/BionicReader.git
+   git clone https://github.com/Guri-Veera/Bionic-Reader.git
    ```
    then *File > Open* and select the `BionicReader` folder (the one containing `settings.gradle.kts`).
 2. **Let Gradle sync.** Wait for the progress bar at the bottom to finish. The first sync can take several minutes. Android Studio creates `local.properties` with your SDK path automatically; it is not stored in the repo.
@@ -94,18 +94,3 @@ BionicReader/
 | Gradle can't download the JDK or dependencies | Check your internet connection or proxy, then sync again |
 
 Note: the code package is `com.example.bionic`, while the installed app id is `com.example.bionicreader` (set by `applicationId` in `app/build.gradle.kts`). The two are allowed to differ.
-
-## Publishing this project to GitHub
-
-From the project folder:
-
-```
-git init
-git add .
-git commit -m "Bionic Reader prototype"
-git branch -M main
-git remote add origin https://github.com/<your-username>/BionicReader.git
-git push -u origin main
-```
-
-The included `.gitignore` keeps build output, `.idea/`, and your machine-specific `local.properties` out of the repo.
